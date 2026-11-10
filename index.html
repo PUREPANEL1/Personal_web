@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Chang Yu, a student in Economics and Electrical and Computer Engineering at The Ohio State University. Research in medical image analysis and foundation models.">
+  <meta property="og:title" content="Chang Yu | The Ohio State University">
+  <meta property="og:description" content="Economics and Electrical & Computer Engineering. Selected research in medical image analysis.">
+  <meta property="og:type" content="website">
+  <title>Chang Yu | The Ohio State University</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header wrap">
+    <a class="wordmark" href="#about"><span class="monogram">CY</span> Chang Yu</a>
+    <nav aria-label="Main navigation"><a href="#about">About</a><a href="#research">Research</a><a href="#education">Education</a><button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme"><span aria-hidden="true">☾</span></button></nav>
+  </header>
+  <main class="wrap" id="main">
+    <section class="profile" id="about" aria-labelledby="profile-title">
+      <div class="profile-copy">
+        <p class="affiliation">THE OHIO STATE UNIVERSITY</p>
+        <h1 id="profile-title"><strong>Chang</strong> Yu<span class="name-dot">.</span></h1>
+        <p class="discipline">Economics · Electrical &amp; Computer Engineering</p>
+        <p>I am a student at <a href="https://www.osu.edu/" target="_blank" rel="noopener noreferrer">The Ohio State University</a>, studying Economics and Electrical &amp; Computer Engineering (ECE).</p>
+        <p>My research interests include medical image analysis, computer vision, and the adaptation of foundation models. My recent work focuses on retinal lesion segmentation and cardiac ultrasound video analysis.</p>
+        <div class="profile-links"><a class="contact-link" href="mailto:yu.3594@osu.edu"><span aria-hidden="true">✉</span> Email</a><a href="https://github.com/PUREPANEL1" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="#research">Selected research <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <figure class="portrait"><img src="assets/chang-yu.jpg" alt="Chang Yu holding a trophy outdoors" fetchpriority="high" width="410" height="1199"><figcaption><span>The Ohio State University</span><span>Columbus, Ohio</span><a href="mailto:yu.3594@osu.edu">yu.3594@osu.edu</a></figcaption></figure>
+    </section>
+    <section class="research" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><h2 id="research-title">Selected Research</h2><p>Manuscripts under review</p></div>
+      <div class="filter-bar" role="group" aria-label="Filter research by authorship"><button class="filter active" type="button" data-filter="all" aria-pressed="true">All work</button><button class="filter" type="button" data-filter="first" aria-pressed="false">First author</button><button class="filter" type="button" data-filter="collaborative" aria-pressed="false">Co-authored</button></div>
+      <p class="author-note">First authors are shown in <strong>bold</strong>. Author order follows each manuscript.</p>
+      <p class="sr-only" id="filter-status" aria-live="polite">Showing 2 research projects.</p>
+      <article class="paper" data-authorship="first" aria-labelledby="paper-one-title">
+        <div class="paper-visual"><img src="assets/d2mamba-research.jpg" alt="D²Mamba illustration of retinal lesions and spatial scanning" loading="lazy" width="542" height="458"><span class="venue-ribbon">IEEE ISBI’27</span><span>D²Mamba</span></div>
+        <div class="paper-content">
+          <p class="venue-heading">IEEE ISBI’27</p>
+          <h3 id="paper-one-title">Seeing the Small: Deformable Duality Mamba for Retinal Lesion Segmentation</h3>
+          <p class="authors"><strong>Chang Yu</strong>, Siqing Li, Yuanchen Liu, Zhenyu Bu, Luming Yang<span class="corresponding" title="Corresponding author">*</span>, Alper Yilmaz</p>
+          <p class="paper-status"><span class="review-badge">Under review</span><span class="authorship">Chang Yu: 1st author of 6</span></p>
+          <p class="paper-summary">A retinal lesion segmentation framework combining non-causal state space duality with deformation-aware scanning to capture small and irregular lesions.</p>
+          <div class="paper-actions"><button class="text-link" data-project="d2mamba" type="button">Overview</button><a class="text-link" href="https://github.com/PUREPANEL1/D2Mamba" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      <article class="paper" data-authorship="collaborative" aria-labelledby="paper-two-title">
+        <div class="paper-visual"><img src="assets/echope-research.jpg" alt="EchoPE overview of cardiac ultrasound views and the model adaptation pipeline" loading="lazy" width="885" height="519"><span class="venue-ribbon">IEEE JBHI</span><span>EchoPE</span></div>
+        <div class="paper-content">
+          <p class="venue-heading">IEEE JBHI</p>
+          <h3 id="paper-two-title">Adapting Echocardiographic Foundation Models for Detecting Pulmonary Embolism-Related Right-Heart Strain</h3>
+          <p class="authors"><strong>Luming Yang</strong>, Yasemin Ozkut, Zhenyu Bu, Siqing Li, <span class="my-name">Chang Yu</span>, Elaine Situ-LaCasse, Josie Acuña, Adrienne Yarnish, Martin Demant, Srikar R. Adhikari, Alper Yilmaz</p>
+          <p class="paper-status"><span class="review-badge">Under review</span><span class="authorship">Chang Yu: 5th author of 11</span></p>
+          <p class="paper-summary">Adapting pretrained echocardiographic representations to detect pulmonary embolism–associated right-heart strain in emergency cardiac ultrasound videos.</p>
+          <div class="paper-actions"><button class="text-link" data-project="echope" type="button">Overview</button></div>
+        </div>
+      </article>
+      <p class="research-footnote">* Corresponding author. Both manuscripts are under review and have not been listed as accepted publications.</p>
+    </section>
+    <section class="education" id="education" aria-labelledby="education-title"><h2 id="education-title">Education</h2><div class="education-entry"><div><h3>The Ohio State University</h3><p>Economics and Electrical &amp; Computer Engineering</p></div><span>Columbus, Ohio</span></div></section>
+  </main>
+  <footer class="footer wrap"><p>© <span id="year">2026</span> Chang Yu</p><a href="mailto:yu.3594@osu.edu">yu.3594@osu.edu</a><a href="https://github.com/PUREPANEL1" target="_blank" rel="noopener noreferrer">GitHub / PUREPANEL1 <span aria-hidden="true">↗</span></a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="dialog-close" type="button" aria-label="Close research overview">×</button><p class="dialog-status" id="dialog-status"></p><h2 id="dialog-title"></h2><p class="dialog-authorship" id="dialog-authorship"></p><div id="dialog-body"></div><button class="dialog-dismiss" type="button">Close overview</button></div></dialog>
+</body>
+</html>
