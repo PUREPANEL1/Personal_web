@@ -4,6 +4,8 @@ A responsive academic portfolio with restrained visual accents and light/dark th
 
 ## Content
 
+- Undergraduate research with Prof. Alper Yilmaz in the Photogrammetric Computer Vision Lab, with links to the advisor and lab.
+
 - Personal introduction, supplied portrait with CSS cropping, and email: yu.3594@osu.edu.
 - **D²Mamba:** IEEE ISBI’27, under review. Chang Yu is first author (1/6).
 - **EchoPE:** IEEE JBHI, under review. Chang Yu is fifth author (5/11).
